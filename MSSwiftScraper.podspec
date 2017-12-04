@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
   s.name         = "MSSwiftScraper"
   s.version      = "0.0.1"
   s.summary      = "Scraper built on top Swift Programming Language."
+  s.swift_version= "3.0"
+
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,6 +28,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC 
                     Scraper built on top Swift Programming Language. 
+                    Created by github.com/managam. 
                    DESC
 
   s.homepage     = "https://github.com/managam/MSSwiftScraper"
@@ -92,7 +95,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "MSSwiftScraper/Classes/**/*"
+  s.source_files  = "MSSwiftScraper/MSSwiftScraper/Classes/**/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

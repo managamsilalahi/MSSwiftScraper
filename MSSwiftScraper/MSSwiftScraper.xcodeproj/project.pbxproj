@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B155C501FD59C97005642B6 /* Test.swiift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B155C4F1FD59C97005642B6 /* Test.swiift.swift */; };
+		5B155C511FD59C97005642B6 /* Test.swiift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B155C4F1FD59C97005642B6 /* Test.swiift.swift */; };
 		5BC5210F1FD56F96005A2E70 /* MSSwiftScraper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC521051FD56F96005A2E70 /* MSSwiftScraper.framework */; };
 		5BC521141FD56F96005A2E70 /* MSSwiftScraperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC521131FD56F96005A2E70 /* MSSwiftScraperTests.swift */; };
 		5BC521161FD56F96005A2E70 /* MSSwiftScraper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC521081FD56F96005A2E70 /* MSSwiftScraper.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B155C4F1FD59C97005642B6 /* Test.swiift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swiift.swift; sourceTree = "<group>"; };
 		5BC521051FD56F96005A2E70 /* MSSwiftScraper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSSwiftScraper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC521081FD56F96005A2E70 /* MSSwiftScraper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSSwiftScraper.h; sourceTree = "<group>"; };
 		5BC521091FD56F96005A2E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,6 +93,7 @@
 		5BC5211F1FD5708E005A2E70 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B155C4F1FD59C97005642B6 /* Test.swiift.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -156,6 +160,7 @@
 				TargetAttributes = {
 					5BC521041FD56F96005A2E70 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					5BC5210D1FD56F96005A2E70 = {
@@ -204,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B155C501FD59C97005642B6 /* Test.swiift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B155C511FD59C97005642B6 /* Test.swiift.swift in Sources */,
 				5BC521141FD56F96005A2E70 /* MSSwiftScraperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +349,7 @@
 		5BC5211A1FD56F96005A2E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id.managamlab.MSSwiftScraper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +372,7 @@
 		5BC5211B1FD56F96005A2E70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -384,6 +394,7 @@
 		5BC5211D1FD56F96005A2E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H79DK722NN;
 				INFOPLIST_FILE = MSSwiftScraperTests/Info.plist;
@@ -398,6 +409,7 @@
 		5BC5211E1FD56F96005A2E70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H79DK722NN;
 				INFOPLIST_FILE = MSSwiftScraperTests/Info.plist;
