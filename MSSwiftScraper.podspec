@@ -18,8 +18,6 @@ Pod::Spec.new do |s|
   s.name         = "MSSwiftScraper"
   s.version      = "0.0.1"
   s.summary      = "Scraper built on top Swift Programming Language."
-  s.swift_version= "3.0"
-
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
