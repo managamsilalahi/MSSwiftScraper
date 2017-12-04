@@ -71,6 +71,7 @@
 		5BC521071FD56F96005A2E70 /* MSSwiftScraper */ = {
 			isa = PBXGroup;
 			children = (
+				5BC5211F1FD5708E005A2E70 /* Classes */,
 				5BC521081FD56F96005A2E70 /* MSSwiftScraper.h */,
 				5BC521091FD56F96005A2E70 /* Info.plist */,
 			);
@@ -84,6 +85,13 @@
 				5BC521151FD56F96005A2E70 /* Info.plist */,
 			);
 			path = MSSwiftScraperTests;
+			sourceTree = "<group>";
+		};
+		5BC5211F1FD5708E005A2E70 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
